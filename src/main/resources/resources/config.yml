@@ -1,0 +1,8 @@
+# Extracted into the plugin's data folder on the first start; edit it there and run /versatia reload announcer.
+announcement:
+  # MiniMessage, parsed once at every start and reload
+  text: "<gold>Tip:</gold> edit config.yml and run <yellow>/versatia reload announcer</yellow>"
+  # A change reschedules the task; a reload that keeps the value leaves the task alone
+  interval-seconds: 30
+# true: the plugin reloads itself within 2 seconds of config.yml being saved
+auto-reload: false
