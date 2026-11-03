@@ -1,6 +1,6 @@
 name: VersatiaExample-Lifecycle-Reload
 version: '${version}'
-main: com.github.marcoral.versatia.example.reload.AnnouncerPlugin
+main: dev.versatia.example.reload.AnnouncerPlugin
 api-version: '1.21'
 author: Versatia
 description: A plugin designed for reload, re-read with /versatia reload announcer or from code.

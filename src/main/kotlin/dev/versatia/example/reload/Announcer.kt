@@ -1,13 +1,13 @@
-package com.github.marcoral.versatia.example.reload
+package dev.versatia.example.reload
 
-import com.github.marcoral.versatia.Phase
-import com.github.marcoral.versatia.VersatiaEngine
-import com.github.marcoral.versatia.broadcast
-import com.github.marcoral.versatia.config.PreviousValueTracking
-import com.github.marcoral.versatia.config.Value
-import com.github.marcoral.versatia.di.LocalBean
-import com.github.marcoral.versatia.lifecycle.AutoInvoke
-import com.github.marcoral.versatia.util.scheduler.runTaskTimer
+import dev.versatia.Phase
+import dev.versatia.VersatiaEngine
+import dev.versatia.broadcast
+import dev.versatia.config.PreviousValueTracking
+import dev.versatia.config.Value
+import dev.versatia.di.LocalBean
+import dev.versatia.lifecycle.AutoInvoke
+import dev.versatia.util.scheduler.runTaskTimer
 import net.kyori.adventure.text.Component
 import net.kyori.adventure.text.minimessage.MiniMessage
 import net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer

@@ -2,9 +2,9 @@
 
 A plugin designed for reload: values re-read by `/versatia reload announcer`, a derived value rebuilt, a repeating task rescheduled only when its interval changes, and a reload started from code.
 
-Part of the [Versatia examples](https://github.com/VersatiaFramework/VersatiaExamples); documentation: [Reloading plugins](https://versatiaframework.github.io/VersatiaDocs/docs/lifecycle/reload).
+Part of the [Versatia examples](https://github.com/VersatiaFramework/VersatiaExamples); documentation: [Reloading plugins](https://versatia.dev/docs/lifecycle/reload).
 
-**Start with** [`Announcer.kt`](src/main/kotlin/com/github/marcoral/versatia/example/reload/Announcer.kt), then [`AnnouncerPlugin.kt`](src/main/kotlin/com/github/marcoral/versatia/example/reload/AnnouncerPlugin.kt); the configuration is [`resources/config.yml`](src/main/resources/resources/config.yml).
+**Start with** [`Announcer.kt`](src/main/kotlin/dev/versatia/example/reload/Announcer.kt), then [`AnnouncerPlugin.kt`](src/main/kotlin/dev/versatia/example/reload/AnnouncerPlugin.kt); the configuration is [`resources/config.yml`](src/main/resources/resources/config.yml).
 
 ## What the log shows
 
@@ -36,7 +36,7 @@ Part of the [Versatia examples](https://github.com/VersatiaFramework/VersatiaExa
 
 Requires JDK 21 and VersatiaAPI in your
 local Maven repository (`./gradlew publishToMavenLocal` in each checkout; see
-[Building the framework](https://versatiaframework.github.io/VersatiaDocs/docs/contributing/building));
+[Building the framework](https://versatia.dev/docs/contributing/building));
 running it requires a Paper 1.21.4 server with VersatiaCore installed, and the
 [CommandAPI](https://commandapi.jorel.dev) 12.x plugin for `/versatia reload` (without it, the
 plugin still reloads itself with `auto-reload: true`).

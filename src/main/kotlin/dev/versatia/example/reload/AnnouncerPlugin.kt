@@ -1,11 +1,11 @@
-package com.github.marcoral.versatia.example.reload
+package dev.versatia.example.reload
 
-import com.github.marcoral.versatia.FriendlyName
-import com.github.marcoral.versatia.Phase
-import com.github.marcoral.versatia.VersatiaPlugin
-import com.github.marcoral.versatia.config.Value
-import com.github.marcoral.versatia.lifecycle.AutoInvoke
-import com.github.marcoral.versatia.util.scheduler.runTaskTimer
+import dev.versatia.FriendlyName
+import dev.versatia.Phase
+import dev.versatia.VersatiaPlugin
+import dev.versatia.config.Value
+import dev.versatia.lifecycle.AutoInvoke
+import dev.versatia.util.scheduler.runTaskTimer
 
 /** Registered as `announcer`, so `/versatia reload announcer` reloads it; with `auto-reload` it also reloads itself from code. */
 @FriendlyName("announcer")
