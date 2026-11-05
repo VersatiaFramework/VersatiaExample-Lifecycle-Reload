@@ -34,10 +34,10 @@ Part of the [Versatia examples](https://github.com/VersatiaFramework/VersatiaExa
 
 ## Building
 
-Requires JDK 21 and VersatiaAPI in your
+Requires JDK 25 and VersatiaAPI in your
 local Maven repository (`./gradlew publishToMavenLocal` in each checkout; see
 [Building the framework](https://versatia.dev/docs/contributing/building));
-running it requires a Paper 1.21.4 server with VersatiaCore installed, and the
+running it requires a Paper 26.3 server with VersatiaCore installed, and the
 [CommandAPI](https://commandapi.jorel.dev) 12.x plugin for `/versatia reload` (without it, the
 plugin still reloads itself with `auto-reload: true`).
 
